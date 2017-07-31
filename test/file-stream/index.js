@@ -33,4 +33,14 @@ describe('File stream', () => {
     done()
   })
 
+  it('should return characters before specified characters', (done) => {
+    const fileStream = new FileStream({
+      filePath: '/home/indix/Tools/Projects/raw-parser/test/resource/catalog.xml',
+      mode: 'r',
+    })
+    const chars = fileStream.trimedRead(fileStream.readBetween, '<', '>')
+    expect(chars).to.be.equal('CATALOG')
+    done()
+  })
+
 })
