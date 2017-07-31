@@ -5,7 +5,7 @@ describe('File stream', () => {
 
   it('should return single character', (done) => {
     const fileRecordReader = new FileRecordReader({
-      filePath: '/home/indix/Tools/Projects/raw-parser/test/resource/catalog.xml',
+      filePath: '/home/manish/Tools/Projects/raw-parser/test/resource/catalog.xml',
       mode: 'r',
       blockName: 'CD'
     })
