@@ -42,5 +42,8 @@
   "bugs": {
     "url": "https://github.com/manishwaran/raw-parser/issues"
   },
-  "homepage": "https://github.com/manishwaran/raw-parser#readme"
+  "homepage": "https://github.com/manishwaran/raw-parser#readme",
+  "dependencies": {
+    "javascript-easy-object": "^1.0.7"
+  }
 }

@@ -14,7 +14,7 @@ export default class RecordReader {
     while(this.fileStream.trimedRead(this.fileStream.readBetween, '<', '>') !== this.recordBlockName);
     const tree = {}
     this.formDOMTree(tree, this.recordBlockName)
-    return new OutputFormatter(RecordReader.output).process()
+    return new OutputFormatter(RecordReader.output).process(tree)
   }
 
   formDOMTree(tree, currentBlock) {

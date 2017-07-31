@@ -4,14 +4,21 @@ import FileRecordReader from '../../src/record-reader'
 describe('File stream', () => {
 
   it('should return single character', (done) => {
+    const onFormat = result => console.log(result);
     const fileRecordReader = new FileRecordReader({
       filePath: '/home/manish/Tools/Projects/raw-parser/test/resource/catalog.xml',
       mode: 'r',
-      blockName: 'CD'
+      blockName: 'CD',
+      output: {
+        fields: {
+          title: 'CD.TITLE',
+          country: 'CD.COUNTRY'
+        },
+        onFormat
+      }
+
     })
     const tree = fileRecordReader.moveToRecordBlock()
-    // expect(char).to.be.equal('<')
-    console.log(JSON.stringify(tree, undefined, 2));
     done()
   })
 
