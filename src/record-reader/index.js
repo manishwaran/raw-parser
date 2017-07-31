@@ -9,16 +9,28 @@ export default class RecordReader {
   }
 
   moveToRecordBlock() {
-    while(this.fileStream.trimedRead(this.fileStream.readBetween, '<', '>') !== this.blockName);
-    const tree = { [this.blockName]: {} }
-    this.formDOMTree(tree[this.blockName], this.blockName)
+    while(this.fileStream.trimedRead(this.fileStream.readBetween, '<', '>') !== this.recordBlockName);
+    const tree = { [this.recordBlockName]: {} }
+    this.formDOMTree(tree, this.recordBlockName)
+    return tree
   }
 
   formDOMTree(tree, parentBlockName) {
-    let blockName = this.fileStream.trimedRead(this.fileStream.readBetween, '<', '>')
-    blockName = RecordReaderHelper.removeSpace(blockName)
-    if (blockName !== `/${parentBlockName}`) {
-
+    const data = this.fileStream.trimedRead(this.fileStream.readBefore, '<')
+    if (data) {
+      tree[parentBlockName] = data
+      return
+    }
+    while (1) {
+      let blockName = this.fileStream.trimedRead(this.fileStream.readBefore,'>')
+      blockName = RecordReaderHelper.removeSpace(blockName)
+      console.log(blockName, parentBlockName);
+      if (blockName === `/${parentBlockName}`) {
+        console.log(parentBlockName, blockName);
+        return
+      }
+      tree[blockName] = {}
+      this.formDOMTree(tree[parentBlockName], blockName)
     }
   }
 

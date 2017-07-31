@@ -1,6 +1,6 @@
 export default class RecordReaderHelper {
 
-  removeSpace(string) {
+  static removeSpace(string) {
     return string.replace(/ /g, '')
   }
 
