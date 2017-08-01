@@ -6,24 +6,24 @@ describe('File stream', () => {
   it('should return single character', (done) => {
     let recordRead = 0
     const onFormat = result => {
-      console.log(result)
+      console.log(JSON.stringify(result, undefined, 2))
       ++recordRead
-      return true
+      return recordRead < 5
     }
     const fileRecordReader = new FileRecordReader({
-      filePath: '/home/manish/Tools/Projects/raw-parser/test/resource/catalog.xml',
+      filePath: '/home/indix/Downloads/raw-parser-input.xml',
       mode: 'r',
-      blockName: 'CD',
+      blockName: 'item_data',
       output: {
-        fields: {
-          title: 'CD.TITLE',
-          country: 'CD.COUNTRY'
-        },
         onFormat
       }
 
     })
-    const tree = fileRecordReader.read()
+    try {
+      const tree = fileRecordReader.read()
+    } catch (error) {
+      console.log(error);
+    }
     console.log('records read = ', recordRead);
     done()
   })

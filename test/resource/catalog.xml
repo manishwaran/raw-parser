@@ -1,210 +1,123 @@
 <CATALOG>
-  <CD>
-    <TITLE>Empire Burlesque</TITLE>
-    <ARTIST>Bob Dylan</ARTIST>
-    <COUNTRY>USA</COUNTRY>
-    <COMPANY>Columbia</COMPANY>
-    <PRICE>10.90</PRICE>
-    <YEAR>1985</YEAR>
-  </CD>
-  <CD>
-    <TITLE>Hide your heart</TITLE>
-    <ARTIST>Bonnie Tyler</ARTIST>
-    <COUNTRY>UK</COUNTRY>
-    <COMPANY>CBS Records</COMPANY>
-    <PRICE>9.90</PRICE>
-    <YEAR>1988</YEAR>
-  </CD>
-  <CD>
-    <TITLE>Greatest Hits</TITLE>
-    <ARTIST>Dolly Parton</ARTIST>
-    <COUNTRY>USA</COUNTRY>
-    <COMPANY>RCA</COMPANY>
-    <PRICE>9.90</PRICE>
-    <YEAR>1982</YEAR>
-  </CD>
-  <CD>
-    <TITLE>Still got the blues</TITLE>
-    <ARTIST>Gary Moore</ARTIST>
-    <COUNTRY>UK</COUNTRY>
-    <COMPANY>Virgin records</COMPANY>
-    <PRICE>10.20</PRICE>
-    <YEAR>1990</YEAR>
-  </CD>
-  <CD>
-    <TITLE>Eros</TITLE>
-    <ARTIST>Eros Ramazzotti</ARTIST>
-    <COUNTRY>EU</COUNTRY>
-    <COMPANY>BMG</COMPANY>
-    <PRICE>9.90</PRICE>
-    <YEAR>1997</YEAR>
-  </CD>
-  <CD>
-    <TITLE>One night only</TITLE>
-    <ARTIST>Bee Gees</ARTIST>
-    <COUNTRY>UK</COUNTRY>
-    <COMPANY>Polydor</COMPANY>
-    <PRICE>10.90</PRICE>
-    <YEAR>1998</YEAR>
-  </CD>
-  <CD>
-    <TITLE>Sylvias Mother</TITLE>
-    <ARTIST>Dr.Hook</ARTIST>
-    <COUNTRY>UK</COUNTRY>
-    <COMPANY>CBS</COMPANY>
-    <PRICE>8.10</PRICE>
-    <YEAR>1973</YEAR>
-  </CD>
-  <CD>
-    <TITLE>Maggie May</TITLE>
-    <ARTIST>Rod Stewart</ARTIST>
-    <COUNTRY>UK</COUNTRY>
-    <COMPANY>Pickwick</COMPANY>
-    <PRICE>8.50</PRICE>
-    <YEAR>1990</YEAR>
-  </CD>
-  <CD>
-    <TITLE>Romanza</TITLE>
-    <ARTIST>Andrea Bocelli</ARTIST>
-    <COUNTRY>EU</COUNTRY>
-    <COMPANY>Polydor</COMPANY>
-    <PRICE>10.80</PRICE>
-    <YEAR>1996</YEAR>
-  </CD>
-  <CD>
-    <TITLE>When a man loves a woman</TITLE>
-    <ARTIST>Percy Sledge</ARTIST>
-    <COUNTRY>USA</COUNTRY>
-    <COMPANY>Atlantic</COMPANY>
-    <PRICE>8.70</PRICE>
-    <YEAR>1987</YEAR>
-  </CD>
-  <CD>
-    <TITLE>Black angel</TITLE>
-    <ARTIST>Savage Rose</ARTIST>
-    <COUNTRY>EU</COUNTRY>
-    <COMPANY>Mega</COMPANY>
-    <PRICE>10.90</PRICE>
-    <YEAR>1995</YEAR>
-  </CD>
-  <CD>
-    <TITLE>1999 Grammy Nominees</TITLE>
-    <ARTIST>Many</ARTIST>
-    <COUNTRY>USA</COUNTRY>
-    <COMPANY>Grammy</COMPANY>
-    <PRICE>10.20</PRICE>
-    <YEAR>1999</YEAR>
-  </CD>
-  <CD>
-    <TITLE>For the good times</TITLE>
-    <ARTIST>Kenny Rogers</ARTIST>
-    <COUNTRY>UK</COUNTRY>
-    <COMPANY>Mucik Master</COMPANY>
-    <PRICE>8.70</PRICE>
-    <YEAR>1995</YEAR>
-  </CD>
-  <CD>
-    <TITLE>Big Willie style</TITLE>
-    <ARTIST>Will Smith</ARTIST>
-    <COUNTRY>USA</COUNTRY>
-    <COMPANY>Columbia</COMPANY>
-    <PRICE>9.90</PRICE>
-    <YEAR>1997</YEAR>
-  </CD>
-  <CD>
-    <TITLE>Tupelo Honey</TITLE>
-    <ARTIST>Van Morrison</ARTIST>
-    <COUNTRY>UK</COUNTRY>
-    <COMPANY>Polydor</COMPANY>
-    <PRICE>8.20</PRICE>
-    <YEAR>1971</YEAR>
-  </CD>
-  <CD>
-    <TITLE>Soulsville</TITLE>
-    <ARTIST>Jorn Hoel</ARTIST>
-    <COUNTRY>Norway</COUNTRY>
-    <COMPANY>WEA</COMPANY>
-    <PRICE>7.90</PRICE>
-    <YEAR>1996</YEAR>
-  </CD>
-  <CD>
-    <TITLE>The very best of</TITLE>
-    <ARTIST>Cat Stevens</ARTIST>
-    <COUNTRY>UK</COUNTRY>
-    <COMPANY>Island</COMPANY>
-    <PRICE>8.90</PRICE>
-    <YEAR>1990</YEAR>
-  </CD>
-  <CD>
-    <TITLE>Stop</TITLE>
-    <ARTIST>Sam Brown</ARTIST>
-    <COUNTRY>UK</COUNTRY>
-    <COMPANY>A and M</COMPANY>
-    <PRICE>8.90</PRICE>
-    <YEAR>1988</YEAR>
-  </CD>
-  <CD>
-    <TITLE>Bridge of Spies</TITLE>
-    <ARTIST>T'Pau</ARTIST>
-    <COUNTRY>UK</COUNTRY>
-    <COMPANY>Siren</COMPANY>
-    <PRICE>7.90</PRICE>
-    <YEAR>1987</YEAR>
-  </CD>
-  <CD>
-    <TITLE>Private Dancer</TITLE>
-    <ARTIST>Tina Turner</ARTIST>
-    <COUNTRY>UK</COUNTRY>
-    <COMPANY>Capitol</COMPANY>
-    <PRICE>8.90</PRICE>
-    <YEAR>1983</YEAR>
-  </CD>
-  <CD>
-    <TITLE>Midt om natten</TITLE>
-    <ARTIST>Kim Larsen</ARTIST>
-    <COUNTRY>EU</COUNTRY>
-    <COMPANY>Medley</COMPANY>
-    <PRICE>7.80</PRICE>
-    <YEAR>1983</YEAR>
-  </CD>
-  <CD>
-    <TITLE>Pavarotti Gala Concert</TITLE>
-    <ARTIST>Luciano Pavarotti</ARTIST>
-    <COUNTRY>UK</COUNTRY>
-    <COMPANY>DECCA</COMPANY>
-    <PRICE>9.90</PRICE>
-    <YEAR>1991</YEAR>
-  </CD>
-  <CD>
-    <TITLE>The dock of the bay</TITLE>
-    <ARTIST>Otis Redding</ARTIST>
-    <COUNTRY>USA</COUNTRY>
-    <COMPANY>Stax Records</COMPANY>
-    <PRICE>7.90</PRICE>
-    <YEAR>1968</YEAR>
-  </CD>
-  <CD>
-    <TITLE>Picture book</TITLE>
-    <ARTIST>Simply Red</ARTIST>
-    <COUNTRY>EU</COUNTRY>
-    <COMPANY>Elektra</COMPANY>
-    <PRICE>7.20</PRICE>
-    <YEAR>1985</YEAR>
-  </CD>
-  <CD>
-    <TITLE>Red</TITLE>
-    <ARTIST>The Communards</ARTIST>
-    <COUNTRY>UK</COUNTRY>
-    <COMPANY>London</COMPANY>
-    <PRICE>7.80</PRICE>
-    <YEAR>1987</YEAR>
-  </CD>
-  <CD>
-    <TITLE>Unchain my heart</TITLE>
-    <ARTIST>Joe Cocker</ARTIST>
-    <COUNTRY>USA</COUNTRY>
-    <COMPANY>EMI</COMPANY>
-    <PRICE>8.20</PRICE>
-    <YEAR>1987</YEAR>
-  </CD>
+  <item_data>
+    <item_basic_data>
+      <item_unique_id>B000C23580</item_unique_id>
+      <parent_asin>B000C23580</parent_asin>
+      <item_ean_list>
+        <item_ean_list_element>0885402953730</item_ean_list_element>
+        <item_ean_list_element>0608940515631</item_ean_list_element>
+        <item_ean_list_element>0885419172445</item_ean_list_element>
+        <item_ean_list_element>0885594272756</item_ean_list_element>
+      </item_ean_list>
+      <item_title>360 Red by Perry Ellis for Women - 1.7 Ounce EDP Spray</item_title>
+      <item_long_desc>Fragrance notes: Fruits orchids woods and musk delightful and sensuous. Recommended use: romantic.When nbsp applying
+        nbsp any fra grance please consider that there are several factors which can affect the natural smell of your skin
+        and in turn the way a scent smells on you. nbsp For instance your mood stress level age body chemistry nbsp diet
+        and current medications may all alter the scents you wear. nbsp nbsp Simila rly factor such as dry or oily nbsp skin
+        can even affect the amount of time a fragrance will last after being applied</item_long_desc>
+      <book_size_description/>
+      <item_page_url>http://www.amazon.in/dp/B000C23580/ref=asc_df_B000C2358044397466/?tag=ihre_partner_id&amp;amp;creative=165953&amp;amp;creativeASIN
+        =B000C23580&amp;amp;linkCode=df0
+      </item_page_url>
+      <amzn_page_url>http://www.amazon.in/dp/B000C23580/ref=asc_df_B000C2358044397466/?tag=ihre_partner_id&amp;amp;creative=165953&amp;amp;creativeASIN
+        =B000C23580&amp;amp;linkCode=df0
+      </amzn_page_url>
+      <fm_page_url>http://www.amazon.in/dp/B000C23580/ref=asc_df_B000C2358044397466?smid=A1WQK6B7UED8W1&amp;tag=ihre_partner_id&amp;linkCode=df0&amp;cr
+        eative=165953&amp;creativeASIN=B000C23580
+      </fm_page_url>
+      <offer_page_url>http://www.amazon.in/gp/offer-listing/B000C23580/ref=asc_df_B000C2358044397466?ie=UTF8&amp;amp;condition=new&amp;amp;tag=ihre_par
+        tner_id&amp;amp;creative=165953&amp;amp;creativeASIN=B000C23580&amp;amp;linkCode=df2
+      </offer_page_url>
+      <offer_used_url>http://www.amazon.in/gp/offer-listing/B000C23580/ref=asc_df_B000C2358044397466?ie=UTF8&amp;amp;condition=used&amp;amp;tag=ihre_pa
+        rtner_id&amp;amp;creative=165953&amp;amp;creativeASIN=B000C23580&amp;amp;linkCode=df2
+      </offer_used_url>
+      <tp_refurbished_url/>
+      <tp_collect_url/>
+      <tp_fba_url/>
+      <item_image_url_small>https://images-eu.ssl-images-amazon.com/images/I/41eERNYb-9L._SL75_.jpg</item_image_url_small>
+      <item_image_url>https://images-eu.ssl-images-amazon.com/images/I/41eERNYb-9L._SL160_.jpg</item_image_url>
+      <item_image_url_large>https://images-eu.ssl-images-amazon.com/images/I/41eERNYb-9L.jpg</item_image_url_large>
+      <item_image_url_hires/>
+      <item_salesrank>132950</item_salesrank>
+      <list_price>3674.00</list_price>
+      <item_category>Beauty</item_category>
+      <item_is_fba>false</item_is_fba>
+      <item_price>3674.00</item_price>
+      <item_inventory>Usually dispatched within 6-10 business days</item_inventory>
+      <item_shipping_charge>0.00</item_shipping_charge>
+      <item_condition>New</item_condition>
+      <item_seller>Amazinglyfab</item_seller>
+      <item_merchant_id>A1WQK6B7UED8W1</item_merchant_id>
+      <item_is_eligible_for_prime>0</item_is_eligible_for_prime>
+      <item_sales_restriction>Check Site.</item_sales_restriction>
+      <item_points/>
+      <item_min_hours>144</item_min_hours>
+      <item_max_hours>240</item_max_hours>
+      <fm_is_fba>false</fm_is_fba>
+      <fm_price>2373.00</fm_price>
+      <fm_inventory>Usually dispatched within 2-3 weeks</fm_inventory>
+      <fm_shipping_charge>0.00</fm_shipping_charge>
+      <fm_condition>New</fm_condition>
+      <fm_seller>ExBorders</fm_seller>
+      <fm_merchant_id>A39AQDPUYGZFYX</fm_merchant_id>
+      <fm_is_eligible_for_prime>0</fm_is_eligible_for_prime>
+      <fm_sales_restriction>Check Site.</fm_sales_restriction>
+      <fm_points/>
+      <fm_min_hours>384</fm_min_hours>
+      <fm_max_hours>480</fm_max_hours>
+      <tp_new_is_fba>false</tp_new_is_fba>
+      <tp_new_price>2373.00</tp_new_price>
+      <tp_new_inventory>Usually dispatched within 2-3 weeks</tp_new_inventory>
+      <tp_new_shipping_charge>0.00</tp_new_shipping_charge>
+      <tp_new_condition>New</tp_new_condition>
+      <tp_new_seller>ExBorders</tp_new_seller>
+      <tp_new_merchant_id>A39AQDPUYGZFYX</tp_new_merchant_id>
+      <tp_new_is_eligible_for_prime>0</tp_new_is_eligible_for_prime>
+      <tp_new_sales_restriction>Check Site.</tp_new_sales_restriction>
+      <tp_new_points/>
+      <tp_new_min_hours>384</tp_new_min_hours>
+      <tp_new_max_hours>480</tp_new_max_hours>
+      <item_sku/>
+      <item_platform/>
+      <item_is_adult_product>0</item_is_adult_product>
+      <prototype_partner_product_id/>
+      <amzn_ppu/>
+      <tp_new_ppu>1395.88 / oz</tp_new_ppu>
+      <tp_used_ppu/>
+      <tp_refurbished_ppu/>
+      <tp_collect_ppu/>
+      <item_energy_efficiency_class/>
+      <item_abstract>Buy 360 Red by Perry Ellis for Women - 1.7 Ounce EDP Spray from Amazon.in!</item_abstract>
+      <weee_tax>0</weee_tax>
+      <cpc/>
+      <dcz/>
+      <wxjz/>
+      <xcyg/>
+    </item_basic_data>
+    <merch_cat_list>
+      <merch_cat_item>
+        <merch_cat_name>1374300031</merch_cat_name>
+        <merch_cat_path>Beauty/Categories/Fragrance/Eau de Parfum</merch_cat_path>
+      </merch_cat_item>
+    </merch_cat_list>
+    <item_brand>Perry Ellis</item_brand>
+    <item_mpn_list>
+      <item_mpn_list_element>W-1443</item_mpn_list_element>
+      <item_mpn_list_element>400553-FRUS</item_mpn_list_element>
+      <item_mpn_list_element>128000</item_mpn_list_element>
+      <item_mpn_list_element>230060</item_mpn_list_element>
+      <item_mpn_list_element>PV2032384</item_mpn_list_element>
+    </item_mpn_list>
+    <item_upc_list>
+      <item_upc_list_element>885419172445</item_upc_list_element>
+      <item_upc_list_element>608940515631</item_upc_list_element>
+      <item_upc_list_element>885402953730</item_upc_list_element>
+      <item_upc_list_element>885594272756</item_upc_list_element>
+    </item_upc_list>
+    <item_color/>
+    <item_isbn/>
+    <item_manufacturer>Perry Ellis</item_manufacturer>
+    <item_model>128000</item_model>
+    <item_publication_date/>
+  </item_data>
 </CATALOG>

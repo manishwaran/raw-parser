@@ -31,7 +31,7 @@ export default class RecordReader {
     }
     while (1) {
       let nextBlock = RecordReaderHelper.removeSpace(this.fileStream.readBefore('>'))
-      if (nextBlock === `/${currentBlock}`) return
+      if (nextBlock === `/${currentBlock}` || nextBlock.slice(-1) === '/') return
       this.formDOMTree(tree[currentBlock], nextBlock)
       this.fileStream.readBefore('<')
     }
