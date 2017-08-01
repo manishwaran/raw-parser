@@ -11,10 +11,16 @@ export default class RecordReader {
   }
 
   moveToRecordBlock() {
-    while(this.fileStream.trimedRead(this.fileStream.readBetween, '<', '>') !== this.recordBlockName);
+    while (
+      !this.fileStream.fileEndReached
+      && this.fileStream.trimedRead(this.fileStream.readBetween, '<', '>')
+      !== this.recordBlockName
+    );
     const tree = {}
-    this.formDOMTree(tree, this.recordBlockName)
-    return new OutputFormatter(RecordReader.output).process(tree)
+    if (!this.fileStream.fileEndReached) {
+      this.formDOMTree(tree, this.recordBlockName)
+    }
+    return tree
   }
 
   formDOMTree(tree, currentBlock) {
@@ -28,6 +34,15 @@ export default class RecordReader {
       if (nextBlock === `/${currentBlock}`) return
       this.formDOMTree(tree[currentBlock], nextBlock)
       this.fileStream.readBefore('<')
+    }
+  }
+
+  read() {
+    let continueRead = true
+    while (continueRead) {
+      const record = this.moveToRecordBlock()
+      if (this.fileStream.fileEndReached) return
+      continueRead = new OutputFormatter(RecordReader.output).process(record)
     }
   }
 

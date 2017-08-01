@@ -4,7 +4,12 @@ import FileRecordReader from '../../src/record-reader'
 describe('File stream', () => {
 
   it('should return single character', (done) => {
-    const onFormat = result => console.log(result);
+    let recordRead = 0
+    const onFormat = result => {
+      console.log(result)
+      ++recordRead
+      return true
+    }
     const fileRecordReader = new FileRecordReader({
       filePath: '/home/manish/Tools/Projects/raw-parser/test/resource/catalog.xml',
       mode: 'r',
@@ -18,7 +23,8 @@ describe('File stream', () => {
       }
 
     })
-    const tree = fileRecordReader.moveToRecordBlock()
+    const tree = fileRecordReader.read()
+    console.log('records read = ', recordRead);
     done()
   })
 

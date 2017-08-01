@@ -14,16 +14,18 @@ export default class FileStream {
   }
 
   init() {
-    this.fileSize = FileStreamHelper.fileSize(this.filePath)
+    this.fileSize = FileStreamHelper.fileSize(this.filePath) * 8
     this.fd = FileStreamHelper.openSync(this.filePath, this.fileMode)
     this.charRead = 0
   }
 
   read() {
     this.charRead += 1
-    return this.charRead <= this.fileSize
-      ? FileStreamHelper.readSync(this.fd, 1, this.fileEncoding)
-      : null
+    if (this.charRead >= this.fileSize) {
+      this.fileEndReached = true
+      return null
+    }
+    return FileStreamHelper.readSync(this.fd, 1, this.fileEncoding)
   }
 
   readBefore(beforeChar) {
@@ -31,6 +33,7 @@ export default class FileStream {
     let beforeCharFlag = false
     while (true) {
       const char = this.read()
+      if (char === null) return null
       if (char === beforeChar) {
         break
       }
@@ -40,12 +43,12 @@ export default class FileStream {
   }
 
   readBetween(start, end) {
-    this.readBefore(start)
-    return this.readBefore(end)
+    return this.readBefore(start) ? this.readBefore(end) : null
   }
 
   trimedRead(func, ...params) {
-    return func(...params).trim()
+    const string = func(...params)
+    return string ? string.trim() : null
   }
 
 };
